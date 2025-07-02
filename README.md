@@ -11,8 +11,8 @@ git clone https://github.com/Sudip200/bookstore.git
 ```
 ```
 
+cd bookstore
 cd bookstore-api
-
 add .env file (optional) default values are taken from config
 
 
