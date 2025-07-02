@@ -1,0 +1,42 @@
+[
+  {
+    "id": "fa8d224b-06cd-4878-8308-d76edaf1a772",
+    "author": "Aurther Con",
+    "title": "SharLok Holmes",
+    "genre": "suspense",
+    "publishedYear": 1900,
+    "userId": "5378fb36-7b20-4a80-9069-86fd5b75ee4c"
+  },
+  {
+    "id": "b85bb9ea-3560-45e3-a6c5-0c7d9fef80e5",
+    "author": "George Orwell",
+    "title": "1984",
+    "genre": "Dystopian",
+    "publishedYear": 1949,
+    "userId": "5378fb36-7b20-4a80-9069-86fd5b75ee4c"
+  },
+  {
+    "id": "30b53bbc-a0f0-4ec1-87cd-ed90b5dbe105",
+    "author": "Harper Lee",
+    "title": "To Kill a Mockingbird",
+    "genre": "Drama",
+    "publishedYear": 1960,
+    "userId": "5378fb36-7b20-4a80-9069-86fd5b75ee4c"
+  },
+  {
+    "id": "88637451-dd56-4150-bb36-e2865a4715c5",
+    "author": "J.R.R. Tolkien",
+    "title": "The Hobbit",
+    "genre": "Fantasy",
+    "publishedYear": 1937,
+    "userId": "5378fb36-7b20-4a80-9069-86fd5b75ee4c"
+  },
+  {
+    "id": "61da0f58-270c-47e7-87c2-1808b8869159",
+    "author": "George Orwell",
+    "title": "1984",
+    "genre": "Dystopian",
+    "publishedYear": 1949,
+    "userId": "7dfa3180-b269-48f8-a39c-5192b05a9dad"
+  }
+]

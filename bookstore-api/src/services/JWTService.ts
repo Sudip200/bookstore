@@ -1,9 +1,11 @@
+
 import config from "../config";
-import jwt from 'jsonwebtoken';
+import jwt, { SignOptions } from 'jsonwebtoken';
 class JWTSingeltonService {
     public static instance: JWTSingeltonService;
     private expiresIn: string;
     private jwtSecret: string;
+
     private constructor() {
         this.jwtSecret = config.jwtSecret;
         this.expiresIn = config.jwtExpiresIn;
@@ -18,7 +20,10 @@ class JWTSingeltonService {
         return jwt.decode(token);
     }
     sign(payload: string | object): string {
-        return jwt.sign(payload, this.jwtSecret, { expiresIn: this.expiresIn as string });
+        const options: SignOptions = {
+            expiresIn: this.expiresIn as any,
+        }
+        return jwt.sign(payload, this.jwtSecret, options);
     }
     verify(token: string): any {
         return jwt.verify(token, this.jwtSecret)

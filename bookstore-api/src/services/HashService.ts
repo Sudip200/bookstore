@@ -16,7 +16,7 @@ class HashService {
     return await bcrypt.hash(password, this.saltRound)
   }
   async compare(hash: string, password: string): Promise<boolean> {
-    return await bcrypt.compare(password, hash)
+    return await bcrypt.compare(password,hash)
   }
 }
 export default HashService;
